@@ -1,4 +1,4 @@
-#include<iostream>
+\#include<iostream>
 #include<string.h>
 using namespace std;
 
@@ -37,9 +37,9 @@ int key;
 cout<<"Enter the key ";
 cin>>key;
 cout<<"The encoded cipher is - ";
-encode(arr, 13);
+encode(arr, key);
 cout<<"The decoded message is - ";
-decode(13);
+decode(key);
 cout<<endl;
 return 0;
 }
